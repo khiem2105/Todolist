@@ -8,7 +8,8 @@ $("ul").on("click","span",function(event){
     event.stopPropagation();
 });
 $("input[type='text']").keypress(function(event){
-    if(event.which === 13){
+    if(event.which === 13 && $(this).val() !== "" && $(this).val() !== " "){
+        console.log($(this).val());
         var toDoText = $(this).val();
         $(this).val("");
         $("ul").append("<li><span><i class='far fa-trash-alt'></i></span> " + toDoText + "</li>");

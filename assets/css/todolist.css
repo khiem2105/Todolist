@@ -15,6 +15,10 @@ h1 {
     font-weight: normal;
 }
 
+h1 span i {
+    padding-top: 2px;
+}
+
 .fa-plus {
     float: right;
 }
@@ -61,6 +65,7 @@ li:hover span {
 i {
     line-height: 40px;
     padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 input {
