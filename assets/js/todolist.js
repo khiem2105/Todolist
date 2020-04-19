@@ -14,3 +14,8 @@ $("input[type='text']").keypress(function(event){
         $("ul").append("<li><span><i class='far fa-trash-alt'></i></span> " + toDoText + "</li>");
     }
 });
+$("h1 span i").click(function(){
+    $("input[type='text']").fadeToggle(200);
+    $(this).toggleClass("fa-plus");
+    $(this).toggleClass("fa-minus");
+});

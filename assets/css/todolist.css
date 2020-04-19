@@ -19,7 +19,7 @@ h1 {
     float: right;
 }
 
-.fa-check {
+.fa-minus {
     float: right;
 }
 
@@ -40,7 +40,7 @@ li:nth-child(2n) {
     background-color: #f7f7f7;
 }
 
-span {
+li span {
     display: inline-block;
     background-color: #e74c3c;
     color: white;
